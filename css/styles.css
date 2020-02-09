@@ -27,14 +27,26 @@ header p {
     width: 100%;
 }
 
-input.input_item {
-    width: 200px;
-}
-
 .input_item {
     display: block;
     margin: 10px auto 0 auto;
     text-align: center;
+}
+
+input.input_item {
+    width: 200px;
+}
+
+button.input_item {
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+    background-color: antiquewhite;
+}
+
+button.input_item:hover {
+    background-color: lightcoral;
+    border: 1px solid black;
 }
 
 #converted_weight {
@@ -43,7 +55,6 @@ input.input_item {
     height: 50px;
     border-radius: 2px;
     line-height: 50px;
-    font-size: 2em;
 }
 
 /* **************** FOOTER ******************* */
